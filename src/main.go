@@ -11,9 +11,9 @@ type ptest struct {
 }
 func main(){
 
-	a:="123"
-	b:="456"
-	fmt.Println(codes.Multiply(a,b))
+	a:=[]int{6,1,3,2,4,7}
+
+	fmt.Println(codes.MaxProfit3(a))
 
 }
 

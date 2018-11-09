@@ -1,11 +1,5 @@
 package codes
 
-type TreeNode struct {
-	     Val int
-	     Left *TreeNode
-	    Right *TreeNode
-	 }
-
 func MinDiffInBST(root *TreeNode) int {
 	loop :=[]int{}
 	loop=dfs(root,loop)

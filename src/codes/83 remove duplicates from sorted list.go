@@ -1,17 +1,15 @@
 package codes
-type ListNode struct{
-	Val int
-	Next *ListNode
-}
-func deleteDuplicates(head *ListNode) *ListNode {
+
+func _deleteDuplicates(head *ListNode) *ListNode {
+	if head==nil{return nil}
 	ans:=head
-	for head.Next!=nil{
+	for head!=nil{
 		tmp:=head.Val
 		for head.Next!=nil&&tmp==head.Next.Val{
 			head.Next=head.Next.Next
-			head=head.Next
-		}
 
+		}
+		head=head.Next
 	}
 	return ans
 }

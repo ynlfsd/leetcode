@@ -32,9 +32,9 @@ func (this *StockSpanner) Next(price int) int {
 	}
 	this.i++
 
-	return findmax(this.price,this.i)
+	return findmaxx(this.price,this.i)
 }
-func findmax(s []int,i int) int{
+func findmaxx(s []int,i int) int{
 	count:=1
 	j:=i-1
 	for ;i>=2;i--{
