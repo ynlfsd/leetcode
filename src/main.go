@@ -1,23 +1,24 @@
 package main
 
 import (
-	"codes"
-	"fmt"
+	"image"
+	"image/color"
 )
 
-type ptest struct {
-	a int
-	b int
-}
-func main(){
+ func main() {
 
-	a:=[]int{6,1,3,2,4,7}
+	  }
+func drawrect(nr *image.NRGBA,dx,dy,w,l int)(xa,ya,xb,yb int){
+	for x:=0;x<=w;x++{
+		nr.Set(x+dx,dy,color.RGBA{0,0,0,255})
+		nr.Set(x+dx,l+dy,color.RGBA{0,0,0,255})
 
-	fmt.Println(codes.MaxProfit3(a))
+	}
 
-}
+	for x:=0;x<=l;x++{
+		nr.Set(dx,x+dy,color.RGBA{0,0,0,255})
+		nr.Set(w+dx,x+dy,color.RGBA{0,0,0,255})
 
-func slincetest(ca *[]int){
-	*ca=append(*ca,5)
-
+	}
+	return dx+w,dy,dx,dy+l
 }
