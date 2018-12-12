@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b83a0979-187f-4b1a-bc4a-d32bc52ca8d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codes/136 single number.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/217 contains duplicate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/231 power of two.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/238 product of array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/389 find the difference.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/45 jump game.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/55 jump game.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/560 subarray sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/62 unique paths.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/717 1bit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/76 set matrix zeros.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/80 remove dupliccates.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/89 gray code.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codes/96 unique binary search tree.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +29,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="16" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
@@ -52,7 +37,7 @@
           <entry key="project.open.time.6" value="10" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -93,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="210">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
@@ -214,7 +199,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -227,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,6 +234,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,9 +325,9 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20568928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -665,7 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="210">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
